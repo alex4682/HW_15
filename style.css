@@ -1,6 +1,6 @@
 .holder {
   display: flex;
-  width: 900px;
+  width: 100vw;
   flex-wrap: wrap;
   border: 10px solid black;
   border-radius: 10px 10px 0px 0px;
@@ -9,14 +9,14 @@
   flex-grow: 1;
   text-align: center;
   height: 100px;
-  width: 300px;
+  width: 33vw;
 }
 
 .item:first-child,
 .item:nth-child(5) {
   flex-grow: 2;
   height: 100px;
-  width: 400px;
+  width: 50vw;
 }
 .item:first-child {
   background-color: orangered;
